@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_view_main3_1"
+        android:layout_centerInParent="true"
+        android:background="#EC1313"
+        android:textSize="30sp"
+        android:text="View1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_toStartOf="@id/text_view_main3_1"
+        android:layout_above="@id/text_view_main3_1"
+        android:background="#61C61A"
+        android:textSize="30sp"
+        android:text="View2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_toEndOf="@id/text_view_main3_1"
+        android:layout_above="@id/text_view_main3_1"
+        android:background="#9457BA"
+        android:textSize="30sp"
+        android:text="View4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_toStartOf="@id/text_view_main3_1"
+        android:layout_below="@id/text_view_main3_1"
+        android:background="#819772"
+        android:textSize="30sp"
+        android:text="View3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_toEndOf="@id/text_view_main3_1"
+        android:layout_below="@id/text_view_main3_1"
+        android:background="#B37E79"
+        android:textSize="30sp"
+        android:text="View5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:background="#B37E79"
+        android:textSize="30sp"
+        android:text="View6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_alignParentEnd="true"
+        android:background="#20CDB3"
+        android:textSize="30sp"
+        android:text="View7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:background="#106287"
+        android:textSize="30sp"
+        android:text="View8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="#CF8619"
+        android:textSize="30sp"
+        android:text="View9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

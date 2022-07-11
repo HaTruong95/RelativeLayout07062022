@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_view_1"
+        android:layout_centerInParent="true"
+        android:textSize="30sp"
+        android:background="#0048FF"
+        android:textColor="@color/white"
+        android:text="Blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text_view_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/text_view_1"
+        android:layout_alignStart="@id/text_view_1"
+        android:background="#4CAF50"
+        android:text="Green"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_alignStart="@id/text_view_2"
+        android:layout_above="@id/text_view_2"
+        android:textSize="30sp"
+        android:background="#f20"
+        android:text="Red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text_view_3"
+        android:layout_alignStart="@id/text_view_1"
+        android:layout_below="@id/text_view_1"
+        android:textSize="30sp"
+        android:background="#FF5722"
+        android:text="Orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text_view_4"
+        android:layout_alignStart="@id/text_view_3"
+        android:layout_below="@id/text_view_3"
+        android:textSize="30sp"
+        android:background="#9F9796"
+        android:text="Gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_alignStart="@id/text_view_4"
+        android:layout_below="@id/text_view_4"
+        android:textSize="30sp"
+        android:background="#F39A0EBA"
+        android:text="Pink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
